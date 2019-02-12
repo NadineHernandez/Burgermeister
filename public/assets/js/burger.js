@@ -23,14 +23,15 @@ $(function() {
     $(".create-form").on("submit", function(event) {
       event.preventDefault();
   
-      var newburger = {
+      var newBurger = {
         burger_name: $("#enterBurger").val().trim(),
-        devoured: false
       };
+
+      console.log(newBurger)
   
       $.ajax("/api/burgers", {
         type: "POST",
-        data: newburger
+        data: newBurger
       }).then(
         function() {
           console.log("created new burger");
