@@ -13,4 +13,5 @@ JavaScript
 Created and Maintained by: Nadine Hernandez
 
 Hosted at
-github: https://github.com/NadineHernandez/Burgermeister
+github repo: https://github.com/NadineHernandez/Burgermeister
+heroku: https://fast-coast-97809.herokuapp.com/
